@@ -13,8 +13,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.VNextFramework.Tools
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.VNextFramework.Auditing", "Common.VNextFramework.Auditing\Common.VNextFramework.Auditing.csproj", "{C48B21EE-DC4F-4815-8B18-CDCF2A077EBF}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{87C167F8-0A91-44FE-AF4B-EA7B6E962AA2}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
