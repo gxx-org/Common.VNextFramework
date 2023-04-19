@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.VNextFramework.Audit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.VNextFramework.AuditLogging.EntityFrameworkCore", "Common.VNextFramework.AuditLogging.EntityFrameworkCore\Common.VNextFramework.AuditLogging.EntityFrameworkCore.csproj", "{31025842-1DED-4B05-9525-174210C4E8AF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.VNextFramework.AuditLogging.EntityFrameworkCore.SqlServer", "Common.VNextFramework.AuditLogging.EntityFrameworkCore.SqlServer\Common.VNextFramework.AuditLogging.EntityFrameworkCore.SqlServer.csproj", "{40955452-7BF7-4DC1-B9B7-7D8234BA4501}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{31025842-1DED-4B05-9525-174210C4E8AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31025842-1DED-4B05-9525-174210C4E8AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31025842-1DED-4B05-9525-174210C4E8AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40955452-7BF7-4DC1-B9B7-7D8234BA4501}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40955452-7BF7-4DC1-B9B7-7D8234BA4501}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40955452-7BF7-4DC1-B9B7-7D8234BA4501}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40955452-7BF7-4DC1-B9B7-7D8234BA4501}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
