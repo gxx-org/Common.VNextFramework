@@ -13,6 +13,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.VNextFramework.Tools
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.VNextFramework.Auditing", "Common.VNextFramework.Auditing\Common.VNextFramework.Auditing.csproj", "{C48B21EE-DC4F-4815-8B18-CDCF2A077EBF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.VNextFramework.Auditing.AspNetCore", "Common.VNextFramework.Auditing.AspNetCore\Common.VNextFramework.Auditing.AspNetCore.csproj", "{EE138035-206B-4EF1-BBBF-5F781BAA136D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.VNextFramework.AuditLogging.EntityFrameworkCore", "Common.VNextFramework.AuditLogging.EntityFrameworkCore\Common.VNextFramework.AuditLogging.EntityFrameworkCore.csproj", "{31025842-1DED-4B05-9525-174210C4E8AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{C48B21EE-DC4F-4815-8B18-CDCF2A077EBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C48B21EE-DC4F-4815-8B18-CDCF2A077EBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C48B21EE-DC4F-4815-8B18-CDCF2A077EBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE138035-206B-4EF1-BBBF-5F781BAA136D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE138035-206B-4EF1-BBBF-5F781BAA136D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE138035-206B-4EF1-BBBF-5F781BAA136D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE138035-206B-4EF1-BBBF-5F781BAA136D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31025842-1DED-4B05-9525-174210C4E8AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31025842-1DED-4B05-9525-174210C4E8AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31025842-1DED-4B05-9525-174210C4E8AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31025842-1DED-4B05-9525-174210C4E8AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
