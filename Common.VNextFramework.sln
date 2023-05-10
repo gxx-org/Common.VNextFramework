@@ -13,13 +13,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.VNextFramework.Tools
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.VNextFramework.Auditing", "Common.VNextFramework.Auditing\Common.VNextFramework.Auditing.csproj", "{C48B21EE-DC4F-4815-8B18-CDCF2A077EBF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.VNextFramework.Auditing.AspNetCore", "Common.VNextFramework.Auditing.AspNetCore\Common.VNextFramework.Auditing.AspNetCore.csproj", "{EE138035-206B-4EF1-BBBF-5F781BAA136D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.VNextFramework.Auditing.AspNetCore", "Common.VNextFramework.Auditing.AspNetCore\Common.VNextFramework.Auditing.AspNetCore.csproj", "{EE138035-206B-4EF1-BBBF-5F781BAA136D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.VNextFramework.AuditLogging.EntityFrameworkCore", "Common.VNextFramework.AuditLogging.EntityFrameworkCore\Common.VNextFramework.AuditLogging.EntityFrameworkCore.csproj", "{31025842-1DED-4B05-9525-174210C4E8AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.VNextFramework.AuditLogging.EntityFrameworkCore", "Common.VNextFramework.AuditLogging.EntityFrameworkCore\Common.VNextFramework.AuditLogging.EntityFrameworkCore.csproj", "{31025842-1DED-4B05-9525-174210C4E8AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.VNextFramework.AuditLogging.EntityFrameworkCore.SqlServer", "Common.VNextFramework.AuditLogging.EntityFrameworkCore.SqlServer\Common.VNextFramework.AuditLogging.EntityFrameworkCore.SqlServer.csproj", "{40955452-7BF7-4DC1-B9B7-7D8234BA4501}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.VNextFramework.AuditLogging.EntityFrameworkCore.SqlServer", "Common.VNextFramework.AuditLogging.EntityFrameworkCore.SqlServer\Common.VNextFramework.AuditLogging.EntityFrameworkCore.SqlServer.csproj", "{40955452-7BF7-4DC1-B9B7-7D8234BA4501}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.VNextFramework.Core", "Common.VNextFramework.Core\Common.VNextFramework.Core.csproj", "{457DE90E-4C8F-4C9A-9BDA-C9BEAB8D3066}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.VNextFramework.Core", "Common.VNextFramework.Core\Common.VNextFramework.Core.csproj", "{457DE90E-4C8F-4C9A-9BDA-C9BEAB8D3066}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.VNextFramework.DistributedLock.Abstractions", "Common.VNextFramework.DistributedLock.Abstractions\Common.VNextFramework.DistributedLock.Abstractions.csproj", "{4886C848-5D51-48D8-9FDA-394581AFE4C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.VNextFramework.DistributedLock.Medallion", "Common.VNextFramework.DistributedLock.Medallion\Common.VNextFramework.DistributedLock.Medallion.csproj", "{101700C6-524F-4126-BFDD-CFFF2658259C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.VNextFramework.DistributedLock.Redis", "Common.VNextFramework.DistributedLock.Redis\Common.VNextFramework.DistributedLock.Redis.csproj", "{BF7B6FDF-E36C-4C24-9654-E4EF1F0D7AF7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +69,18 @@ Global
 		{457DE90E-4C8F-4C9A-9BDA-C9BEAB8D3066}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{457DE90E-4C8F-4C9A-9BDA-C9BEAB8D3066}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{457DE90E-4C8F-4C9A-9BDA-C9BEAB8D3066}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4886C848-5D51-48D8-9FDA-394581AFE4C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4886C848-5D51-48D8-9FDA-394581AFE4C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4886C848-5D51-48D8-9FDA-394581AFE4C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4886C848-5D51-48D8-9FDA-394581AFE4C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{101700C6-524F-4126-BFDD-CFFF2658259C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{101700C6-524F-4126-BFDD-CFFF2658259C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{101700C6-524F-4126-BFDD-CFFF2658259C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{101700C6-524F-4126-BFDD-CFFF2658259C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF7B6FDF-E36C-4C24-9654-E4EF1F0D7AF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF7B6FDF-E36C-4C24-9654-E4EF1F0D7AF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF7B6FDF-E36C-4C24-9654-E4EF1F0D7AF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF7B6FDF-E36C-4C24-9654-E4EF1F0D7AF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

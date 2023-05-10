@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="DistributedLock.Core" Version="1.0.4" />
+	</ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Common.VNextFramework.DistributedLock.Abstractions\Common.VNextFramework.DistributedLock.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>
