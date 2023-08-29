@@ -2,8 +2,7 @@
 
   <PropertyGroup>
 	  <TargetFrameworks>netstandard2.1;net6.0</TargetFrameworks>
-	<Version>1.0.1</Version>
-	  <ImplicitUsings>disable</ImplicitUsings>
+	  <Version>2.2.1</Version>
   </PropertyGroup>
 
 	<ItemGroup Condition=" '$(TargetFramework)' == 'net6.0' ">

@@ -11,9 +11,9 @@ namespace Common.VNextFramework.Model
         [Range(1, 100)]
         public int PageSize { get; set; }
 
-        public IEnumerable<Sort>? Sorts { get; set; }
+        public IEnumerable<Sort> Sorts { get; set; } = new List<Sort>();
 
-        public IEnumerable<Filter>? Filters { get; set; }
+        public IEnumerable<Filter> Filters { get; set; } = new List<Filter>();
     }
 
     public class Sort

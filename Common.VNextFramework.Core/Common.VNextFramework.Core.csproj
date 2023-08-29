@@ -1,12 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.1</TargetFramework>
+	  <TargetFramework>netstandard2.0</TargetFramework>
 	  <ApplicationIcon />
 	  <OutputType>Library</OutputType>
 	  <StartupObject />
-	  <RootNamespace>Common.VNextFramework</RootNamespace>
-	  <Version>1.0.0</Version>
+	  <RootNamespace>BCChina.VNextFramework</RootNamespace>
+	  <Version>2.0.0</Version>
   </PropertyGroup>
 
 	<ItemGroup>
